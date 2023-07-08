@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,500;1,600&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
     <header class="cabecalho-bg">
@@ -25,6 +26,54 @@
                     <li>Guarulhos - SP</li>
                 </ul>
             </div>
+            <label>
+                <input type="checkbox" class="slider btn">
+                <div class="switch">
+                    <div class="suns"></div>
+                    <div class="moons">
+                        <div class="star star-1"></div>
+                        <div class="star star-2"></div>
+                        <div class="star star-3"></div>
+                        <div class="star star-4"></div>
+                        <div class="star star-5"></div>
+                        <div class="first-moon"></div>
+                    </div>
+                    <div class="sand"></div>
+                    <div class="bb8">
+                        <div class="antennas">
+                            <div class="antenna short"></div>
+                            <div class="antenna long"></div>
+                        </div>
+                        <div class="head">
+                            <div class="stripe one"></div>
+                            <div class="stripe two"></div>
+                            <div class="eyes">
+                                <div class="eye one"></div>
+                                <div class="eye two"></div>
+                            </div>
+                            <div class="stripe detail">
+                                <div class="detail zero"></div>
+                                <div class="detail zero"></div>
+                                <div class="detail one"></div>
+                                <div class="detail two"></div>
+                                <div class="detail three"></div>
+                                <div class="detail four"></div>
+                                <div class="detail five"></div>
+                                <div class="detail five"></div>
+                            </div>
+                            <div class="stripe three"></div>
+                        </div>
+                        <div class="ball">
+                            <div class="lines one"></div>
+                            <div class="lines two"></div>
+                            <div class="ring one"></div>
+                            <div class="ring two"></div>
+                            <div class="ring three"></div>
+                        </div>
+                        <div class="shadow"></div>
+                    </div>
+                </div>
+            </label>
         </div>
     </header>
     <main>
@@ -84,9 +133,7 @@
                     </div>
                 </section>
                 <section class="formacao">
-                    <h2>Formação</h2>
-                    <div class="formacao-container">
-                     
+                    <h2>Formação</h2>                     
                     <div class="formacao-container">
                         <h3>Ciência da Computação</h3>
                         <ul>
@@ -126,6 +173,18 @@
                 </div>  
             </div>
         </div>
-    </footer>    
+    </footer> 
+    <script>
+            
+        const btn = document.querySelector('.btn')
+        const container = document.querySelector('body')
+        
+        btn.onclick = function()
+        {
+            this.classList.toggle('active')
+            container.classList.toggle('active')
+        }
+    
+    </script>  
 </body>
 </html>
