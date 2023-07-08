@@ -1,6 +1,6 @@
 /*Botão StarWars*/
 label{
-    align-self: flex-start
+    align-self: flex-start;
 }
 .switch {
   --toggle-size: 1;
@@ -874,19 +874,12 @@ body.active .contato p{
 
 @media screen and (max-width: 800px) {
     /*Botão StarWars*/
-    label{
-        position: absolute;
-        right: 0;
-        top: 0;
-        box-sizing: border-box;
-        background-color: #12a50b;
-        overflow: hidden; 
-
-    }
     .switch {
-        --toggle-size: 1;
-                
-    }    
+        --toggle-size: 1;                
+    } 
+    label{
+        align-self: center;
+    }   
     
     /*cabeçalho*/
     .cabecalho-bg{
@@ -953,14 +946,8 @@ body.active .contato p{
 
 @media screen and (max-width: 410px) {
     /*Botão StarWars*/
-    label{
-        position: absolute;
-        right: -50px;
-        top: 0;
-        box-sizing: border-box;
-        background-color: transparent;
-        overflow: hidden; 
-    
+    .switch{
+    --toggle-size: 0.8;
     }
     /*Footer*/
     .footer{
