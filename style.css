@@ -1,6 +1,6 @@
 /*Botão StarWars*/
 label{
-align-self: flex-start
+    align-self: flex-start
 }
 .switch {
   --toggle-size: 1;
@@ -632,6 +632,7 @@ align-self: flex-start
     align-items: center;
     padding: 30px;
     max-width: 1200px;
+    position: relative;
 }
 .foto{
     margin-right: 10px;
@@ -872,6 +873,21 @@ body.active .contato p{
 }  
 
 @media screen and (max-width: 800px) {
+    /*Botão StarWars*/
+    label{
+        position: absolute;
+        right: 0;
+        top: 0;
+        box-sizing: border-box;
+        background-color: #12a50b;
+        overflow: hidden; 
+
+    }
+    .switch {
+        --toggle-size: 1;
+                
+    }    
+    
     /*cabeçalho*/
     .cabecalho-bg{
         padding: 15px 15px 0;
@@ -883,6 +899,7 @@ body.active .contato p{
     }
     .foto{
         width: 100%;
+        margin: 0;
     }
     .foto img{
         width: 100%;
@@ -935,6 +952,16 @@ body.active .contato p{
 }
 
 @media screen and (max-width: 410px) {
+    /*Botão StarWars*/
+    label{
+        position: absolute;
+        right: -50px;
+        top: 0;
+        box-sizing: border-box;
+        background-color: transparent;
+        overflow: hidden; 
+    
+    }
     /*Footer*/
     .footer{
         padding: 10px 0;
