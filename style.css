@@ -4,7 +4,6 @@ label{
 }
 .switch {
   --toggle-size: 1;
-
 }
 
 .switch *, .switch *::after, *::before {
@@ -841,6 +840,7 @@ h4{
       transform: scale(1);
     }
 }
+
 /*Dark Mode*/
 body.active{
     background-color: #1B1F24;
