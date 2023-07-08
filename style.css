@@ -1,5 +1,5 @@
-
-.cabecalho-bk{
+/*cabecalho*/
+.cabecalho-bg{
     background-color: #1C92FF;
     padding: 30px 30px 0;
     display: block;
@@ -13,8 +13,6 @@
     align-items: center;
     padding: 30px;
     max-width: 1200px;
-    
-    
 }
 .foto{
     width: 600px;
@@ -29,7 +27,6 @@
     text-align: left;
     margin-right: 10px;
     flex-basis: 400px;
-      
 }
 .contato p{
     margin-bottom: 25px;
@@ -51,57 +48,64 @@
     color: rgba(0, 0, 0, 0.641);
 }
 
+/*main*/
 main{
     width: 100%;
     padding: 0 30px 30px 30px;
     margin: 0 auto;
     max-width: 1200px;
-    
 }
 p{
     line-height: 25px;
 }
 .colunas{
     display: flex;
-    
 }
 section{
     border: 2px solid #1C92FF;
     padding: 20px;
     margin: 20px 10px;
 }
-
 h2{
     font-size: 1.5rem;
     margin-bottom: 20px;
     font-weight: bold;
+    text-decoration: underline;
 }
 h3{
     font-size: 1.25rem;
     margin-bottom: 20px;
     font-weight: bold;
+    text-decoration: underline;
 }
 h4{
     margin-bottom: 10px;
+    font-weight: bold;
 }
 .cargo{
     margin: 20px 0;
 }
-.coluna-esquerda section{
-    height: 300px;
-}
 .colunas li{
     margin: 15px 0;
 }
+.coluna-esquerda section{
+    
+}
+.cursos i{
+    font-size: 0.9em;
+}
 .coluna-direita section{
-    width: 400px;
+    width: 450px;
+}
+.coluna-direita h2{
+    text-decoration: none;
 }
 .perfil-profissional{
-    height: 600px !important;
     font-size: 1rem;
     line-height: normal;
 }
 
+/*rodapé*/
 .footer-bg{
     background-color: #22272F;
     display: inline-block;
@@ -114,15 +118,18 @@ h4{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 60%;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px 30px 10px 30px;
     margin: 0 auto;
-    padding: 15px;
+    max-width: 1200px;
 }
 .footer-name{
     display: flex;
     align-items: center;
     text-align: left;
     position: relative;
+    
 }
 .footer-name p,span{
     font-weight: 600;
@@ -139,13 +146,13 @@ h4{
 }
 
 
-.card {
+.redes-sociais {
     display: flex;
     height: 70px;
     width: 270px;
   }
   
-  .card svg {
+  .redes-sociais svg {
     position: absolute;
     display: flex;
     width: 45%;
@@ -159,7 +166,7 @@ h4{
   
   }
   
-  .card .social-link1,.card .social-link2,.card .social-link3,.card .social-link4 {
+  .redes-sociais .social-instagram,.redes-sociais .social-github,.redes-sociais .social-linkedin,.redes-sociais .social-wpp {
     position: relative;
     display: flex;
     align-items: center;
@@ -172,11 +179,11 @@ h4{
     border-radius: 50px;
   }
   
-  .card svg {
+  .redes-sociais svg {
     transform: scale(1);
   }
   
-  .card .social-link1:hover {
+  .redes-sociais .social-instagram:hover {
     background: #f09433;
     background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
     background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
@@ -185,17 +192,17 @@ h4{
     animation: bounce_613 0.4s linear;
   }
   
-  .card .social-link2:hover {
+  .redes-sociais .social-github:hover {
     background-color: #121314;
     animation: bounce_613 0.4s linear;
   }
   
-  .card .social-link3:hover {
+  .redes-sociais .social-linkedin:hover {
     background-color: #0a66c2;
     animation: bounce_613 0.4s linear;
   }
   
-  .card .social-link4:hover {
+  .redes-sociais .social-wpp:hover {
     background-color: #12a50b;
     animation: bounce_613 0.4s linear;
   }
