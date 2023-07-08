@@ -95,7 +95,7 @@ h4{
     font-size: 0.9em;
 }
 .coluna-direita section{
-    width: 450px;
+    width: 400px;
 }
 .coluna-direita h2{
     text-decoration: none;
@@ -103,6 +103,7 @@ h4{
 .perfil-profissional{
     font-size: 1rem;
     line-height: normal;
+    min-height: 350px;
 }
 
 /*rodapé*/
@@ -132,7 +133,7 @@ h4{
     
 }
 .footer-name p,span{
-    font-weight: 600;
+    font-weight: 500;
 }
 .nome{
     font-size: 1.5rem;
