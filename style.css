@@ -225,3 +225,85 @@ h4{
       transform: scale(1);
     }
   }
+
+@media screen and (max-width: 800px) {
+    /*cabeçalho*/
+    .cabecalho-bg{
+        padding: 15px 15px 0;
+    }
+    .cabecalho{
+        width: 100%;
+        padding: 0px;
+        flex-direction: column;
+    }
+    .foto{
+        width: 100%;
+    }
+    .foto img{
+        width: 100%;
+        border-radius: 0;
+    }
+    .contato{
+        display: inline-block;
+        text-align: left;
+        margin-right: 10px;
+        flex-basis: 0px;
+        padding: 20px 5px;
+        text-align: center;
+    }
+    .contato p{
+        margin-bottom: 10px;
+    }
+    /*main*/
+    main{
+        width: 100%;
+        padding: 0 15px 15px 15px;
+        margin: 0 auto;
+        max-width: 1200px;
+    }
+    .colunas{
+        flex-direction: column;/**/
+    }
+    section{
+        margin: 10px 0px;/**/
+    }
+    h2{
+        margin-bottom: 15px;/**/
+    }
+    .coluna-direita section{
+        width: auto;/**/
+    }
+    /*Rodapé*/
+    .footer{
+        padding: 10px 20px 15px 20px;/**/
+        flex-direction: column-reverse;/**/
+    }
+    .footer-name{
+        font-size: 1.3rem;/**/ 
+    }
+    .nome{
+        font-size: 1.3rem;/**/
+    }
+    .coroa{
+        margin: -4px 2px 2px 2px;
+    }       
+}
+
+@media screen and (max-width: 410px) {
+    /*Footer*/
+    .footer{
+        padding: 10px 0;
+    }
+    .footer-name{
+        font-size: 1rem;/**/ 
+    }
+    .nome{
+        font-size: 1rem;/**/
+    }
+    .coroa{
+        margin: -2px 2px 2px 2px;
+    }
+    .redes-sociais svg {
+        width: 40%;
+    }  
+}
