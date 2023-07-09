@@ -617,75 +617,90 @@ label{
 }
 
 /*cabecalho*/
+
 .cabecalho-bg{
-    background-color: #286fb1;
-    padding: 30px 30px 0;
-    display: block;
+  background-color: #286fb1;
+  padding: 30px 30px 0;
+  display: block;
 }
+
 .cabecalho{
-    background-color: white;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px;
-    max-width: 1200px;
-    position: relative;
+  background-color: white;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  max-width: 1200px;
+  position: relative;
 }
+
 .foto{
-    margin-right: 10px;
+  margin-right: 10px;
 }
+
 .foto img{
-    width: 300px;
-    border-radius: 50%;
-    display: block;
+  width: 300px;
+  border-radius: 50%;
+  display: block;
 }
+
 .contato{
-    display: inline-block;
-    text-align: left;
-    margin-right: 10px;    
+  display: inline-block;
+  text-align: left;
+  margin-right: 10px;    
 }
+
 .contato p{
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
+
 .contato ul{
-    margin-left: 0;
+  margin-left: 0;
 }
+
 .contato li{
-    margin-bottom: 15px;
-    list-style: none;
+  margin-bottom: 15px;
+  list-style: none;
 }
+
 .contato h1{
-    font-size: 1.5rem;
-    margin-bottom: 5px;
-    font-weight: bold;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
+
 .contato p{
-    font-size: 1.225rem;
-    color: rgba(0, 0, 0, 0.641);
+  font-size: 1.225rem;
+  color: rgba(0, 0, 0, 0.641);
 }
 
 /*main*/
+
 main{
-    width: 100%;
-    padding: 0 30px 30px 30px;
-    margin: 0 auto;
-    max-width: 1200px;
+  width: 100%;
+  padding: 0 30px 30px 30px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
+
 p{
-    line-height: 25px;
+  line-height: 25px;
 }
+
 .colunas{
-    display: flex;
+  display: flex;
 }
+
 section{
-    border: 2px solid transparent;
-    padding: 20px;
-    margin: 20px 10px;
-    position: relative;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
+  border: 2px solid transparent;
+  padding: 20px;
+  margin: 20px 10px;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
 }
+
 section::before{
   content: '';
   position: absolute;
@@ -696,14 +711,14 @@ section::before{
   left: -2px;
   border: 2px solid transparent;
   box-sizing: content-box;
+}
 
-}
 section::before{
-  animation: animate 2.7s linear forwards;
+  animation: animacao 2.7s linear forwards;
   animation-delay: 3s;
-  
 }
-@keyframes animate{
+
+@keyframes animacao{
   0%{
     width: 0;
     height: 0;
@@ -743,11 +758,11 @@ section::after{
 
 }
 section::after{
-  animation: animate2 2.7s linear forwards;
+  animation: animacao2 2.7s linear forwards;
   animation-delay: 3s;
   
 }
-@keyframes animate2{
+@keyframes animacao2{
   0%{
     width: 0;
     height: 0;
@@ -775,281 +790,316 @@ section::after{
 }
 
 h2{
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-decoration: underline;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: underline;
 }
+
 h3{
-    font-size: 1.25rem;
-    margin-bottom: 20px;
-    font-weight: bold;
-    text-decoration: underline;
+  font-size: 1.25rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  text-decoration: underline;
 }
+
 h4{
-    margin-bottom: 10px;
-    font-weight: bold;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
+
 .cargo{
-    margin: 20px 0;
+  margin: 20px 0;
 }
+
 .colunas li{
-    margin: 15px 0;
+  margin: 15px 0;
 }
+
 .cursos i{
-    font-size: 0.9em;
+  font-size: 0.9em;
 }
+
 .coluna-direita section{
-    width: 400px;
+  width: 400px;
 }
+
 .coluna-direita h2{
-    text-decoration: none;
+  text-decoration: none;
 }
+
 .perfil-profissional{
-    font-size: 1rem;
-    line-height: normal;
-    min-height: 350px;
+  font-size: 1rem;
+  line-height: normal;
+  min-height: 350px;
 }
 
 /*rodapé*/
+
 .footer-bg{
-    background-color: #22272F;
-    display: inline-block;
-    width: 100%;
-    font-size: 1.5em;
-    color: white;
-    text-align: center;
+  background-color: #22272F;
+  display: inline-block;
+  width: 100%;
+  font-size: 1.5em;
+  color: white;
+  text-align: center;
 }
+
 .footer{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    padding: 10px 30px 10px 30px;
-    margin: 0 auto;
-    max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 30px 10px 30px;
+  margin: 0 auto;
+  max-width: 1200px;
 }
+
 .footer-name{
-    display: flex;
-    align-items: center;
-    text-align: left;
-    position: relative;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  position: relative;
     
 }
+
 .footer-name p,span{
-    font-weight: 500;
-}
-.nome{
-    font-size: 1.5rem;
-}
-.coroa{
-    width: 1.4em;
-    margin-left: 3px;
-    display: inline-block;
-    position: absolute;
-    margin: -6px 2px 2px 2px;
+  font-weight: 500;
 }
 
+.nome{
+  font-size: 1.5rem;
+}
+
+.coroa{
+  width: 1.4em;
+  margin-left: 3px;
+  display: inline-block;
+  position: absolute;
+  margin: -6px 2px 2px 2px;
+}
 
 .redes-sociais {
-    display: flex;
-    height: 70px;
-    width: 270px;
+  display: flex;
+  height: 70px;
+  width: 270px;
 }
   
 .redes-sociais svg {
-    position: absolute;
-    display: flex;
-    width: 45%;
-    height: 100%;
-    font-size: 24px;
-    font-weight: 700;
-    opacity: 1;
-    transition: opacity 0.25s;
-    z-index: 2;
-    cursor: pointer;
-  
+  position: absolute;
+  display: flex;
+  width: 45%;
+  height: 100%;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1;
+  transition: opacity 0.25s;
+  z-index: 2;
+  cursor: pointer;
 }
   
 .redes-sociais .social-instagram,.redes-sociais .social-github,.redes-sociais .social-linkedin,.redes-sociais .social-wpp {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 25%;
-    color: whitesmoke;
-    font-size: 24px;
-    text-decoration: none;
-    transition: 0.25s;
-    border-radius: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  color: whitesmoke;
+  font-size: 24px;
+  text-decoration: none;
+  transition: 0.25s;
+  border-radius: 50px;
 }
   
 .redes-sociais svg {
-    transform: scale(1);
+  transform: scale(1);
 }
   
 .redes-sociais .social-instagram:hover {
-    background: #f09433;
-    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
-    animation: bounce_613 0.4s linear;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  animation: bounce_613 0.4s linear;
 }
   
 .redes-sociais .social-github:hover {
-    background-color: #121314;
-    animation: bounce_613 0.4s linear;
+  background-color: #121314;
+  animation: bounce_613 0.4s linear;
 }
   
 .redes-sociais .social-linkedin:hover {
-    background-color: #0a66c2;
-    animation: bounce_613 0.4s linear;
+  background-color: #0a66c2;
+  animation: bounce_613 0.4s linear;
 }
   
 .redes-sociais .social-wpp:hover {
-    background-color: #12a50b;
-    animation: bounce_613 0.4s linear;
+  background-color: #12a50b;
+  animation: bounce_613 0.4s linear;
 }
   
 @keyframes bounce_613 {
-    40% {
-      transform: scale(1.4);
-    }
+  40% {
+    transform: scale(1.4);
+  }
   
-    60% {
-      transform: scale(0.8);
-    }
+  60% {
+    transform: scale(0.8);
+  }
   
-    80% {
-      transform: scale(1.2);
-    }
+  80% {
+    transform: scale(1.2);
+  }
   
-    100% {
-      transform: scale(1);
-    }
+  100% {
+    transform: scale(1);
+  }
 }
 
 /*Dark Mode*/
 body.active{
-    background-color: #1B1F24;
-    color: rgb(219, 219, 219);
+  background-color: #1B1F24;
+  color: rgb(219, 219, 219);
 }
+
 body.active .cabecalho-bg{
-    background-color: #22272F;
+  background-color: #22272F;
 }
+
 body.active .cabecalho{
-    background-color: #1B1F24;
+  background-color: #1B1F24;
 }
+
 body.active .contato p{
-    color: #0e7deb;
+  color: #0e7deb;
 }
 
 /*Barra de Scroll*/
+
 ::-webkit-scrollbar {
-	width: 7px;
+  width: 7px;
 	background-color: rgb(35, 38, 41);
 }
+
 ::-webkit-scrollbar-thumb {
 	background-color: #286fb1;
-    border-radius: 20px;
+  border-radius: 20px;
 }
+
 ::-webkit-scrollbar-track {
 	background-color: transparent;
 }  
 
 @media screen and (max-width: 800px) {
-    /*Botão StarWars*/
-    .switch {
-        --toggle-size: 1;                
-    } 
-    label{
-        align-self: center;
-    }   
+  /*Botão StarWars*/
+  .switch {
+    --toggle-size: 1;                
+  } 
+  label{
+    align-self: center;
+  }   
     
     /*cabeçalho*/
-    .cabecalho-bg{
-        padding: 15px 15px 0;
-    }
-    .cabecalho{
-        width: 100%;
-        padding: 0px;
-        flex-direction: column;
-    }
-    .foto{
-        width: 100%;
-        margin: 0;
-    }
-    .foto img{
-        width: 100%;
-        border-radius: 0;
-    }
-    .contato{
-        display: inline-block;
-        text-align: left;
-        margin-right: 10px;
-        flex-basis: 0px;
-        padding: 20px 5px;
-        text-align: center;
-    }
-    .contato p{
-        margin-bottom: 10px;
-    }
-    /*main*/
-    main{
-        width: 100%;
-        padding: 0 15px 15px 15px;
-        margin: 0 auto;
-        max-width: 1200px;
-    }
-    .colunas{
-        flex-direction: column;/**/
-    }
-    section{
-        margin: 10px 0px;/**/
-    }
-    h2{
-        margin-bottom: 15px;/**/
-    }
-    .coluna-direita section{
-        width: auto;/**/
-    }
-    /*Rodapé*/
-    .footer{
-        padding: 10px 20px 15px 20px;/**/
-        flex-direction: column-reverse;/**/
-    }
-    .footer-name{
-        font-size: 1.3rem;/**/ 
-    }
-    .nome{
-        font-size: 1.3rem;/**/
-    }
-    .coroa{
-        margin: -4px 2px 2px 2px;
-    }       
+  .cabecalho-bg{
+    padding: 15px 15px 0;
+  }
+
+  .cabecalho{
+    width: 100%;
+    padding: 0px;
+    flex-direction: column;
+  }
+
+  .foto{
+    width: 100%;
+    margin: 0;
+  }
+
+  .foto img{
+    width: 100%;
+    border-radius: 0;
+  }
+  .contato{
+    display: inline-block;
+    text-align: left;
+    margin-right: 10px;
+    flex-basis: 0px;
+    padding: 20px 5px;
+    text-align: center;
+  }
+  .contato p{
+    margin-bottom: 10px;
+  }
+
+  /*main*/
+  main{
+    width: 100%;
+    padding: 0 15px 15px 15px;
+    margin: 0 auto;
+    max-width: 1200px;
+  }
+
+  .colunas{
+    flex-direction: column;/**/
+  }
+
+  section{
+    margin: 10px 0px;/**/
+  }
+
+  h2{
+    margin-bottom: 15px;/**/
+  }
+
+  .coluna-direita section{
+    width: auto;/**/
+  }
+
+  /*Rodapé*/
+  .footer{
+    padding: 10px 20px 15px 20px;/**/
+    flex-direction: column-reverse;/**/
+  }
+
+  .footer-name{
+    font-size: 1.3rem;/**/ 
+  }
+
+  .nome{
+    font-size: 1.3rem;/**/
+  }
+
+  .coroa{
+    margin: -4px 2px 2px 2px;
+  }       
 }
 
 @media screen and (max-width: 410px) {
-    /*Botão StarWars*/
-    .switch{
+  /*Botão StarWars*/
+  .switch{
     --toggle-size: 0.8;
-    }
-    /*Footer*/
-    .footer{
-        padding: 10px 0;
-    }
-    .footer-name{
-        font-size: 1rem;/**/ 
-    }
-    .nome{
-        font-size: 1rem;/**/
-    }
-    .coroa{
-        margin: -2px 2px 2px 2px;
-    }
-    .redes-sociais svg {
-        width: 40%;
-    }  
+  }
+
+  /*Footer*/
+  .footer{
+    padding: 10px 0;
+  }
+
+  .footer-name{
+    font-size: 1rem;/**/ 
+  }
+
+  .nome{
+    font-size: 1rem;/**/
+  }
+
+  .coroa{
+    margin: -2px 2px 2px 2px;
+  }
+
+  .redes-sociais svg {
+    width: 40%;
+  }  
 }
