@@ -684,7 +684,7 @@ section{
     padding: 20px;
     margin: 20px 10px;
     position: relative;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
 }
 section::before{
   content: '';
@@ -942,14 +942,11 @@ body.active .cabecalho-bg{
 body.active .cabecalho{
     background-color: #1B1F24;
 }
-body.active section{
-    border: 2px solid #2c5f8e;
-    padding: 20px;
-    margin: 20px 10px;
-}
 body.active .contato p{
     color: #0e7deb;
 }
+
+/*Barra de Scroll*/
 ::-webkit-scrollbar {
 	width: 7px;
 	background-color: rgb(35, 38, 41);
