@@ -680,10 +680,100 @@ p{
     display: flex;
 }
 section{
-    border: 2px solid #1C92FF;
+    border: 2px solid transparent;
     padding: 20px;
     margin: 20px 10px;
+    position: relative;
+    
 }
+section::before{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  top: -2px;
+  left: -2px;
+  border: 2px solid transparent;
+  box-sizing: content-box;
+
+}
+section::before{
+  animation: animate 2.7s linear forwards;
+  animation-delay: 3s;
+  
+}
+@keyframes animate{
+  0%{
+    width: 0;
+    height: 0;
+    border-top-color: #1C92FF;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  50%{
+    width: 100%;
+    height: 0;
+    border-top-color: #1C92FF;
+    border-right-color: #1C92FF;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+  100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: #1C92FF;
+    border-right-color: #1C92FF;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+  }
+}
+
+section::after{
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 0;
+  background-color: transparent;
+  top: -2px;
+  left: -2px;
+  border: 2px solid transparent;
+  box-sizing: content-box;
+
+}
+section::after{
+  animation: animate2 2.7s linear forwards;
+  animation-delay: 3s;
+  
+}
+@keyframes animate2{
+  0%{
+    width: 0;
+    height: 0;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #1C92FF;
+  }
+  50%{
+    width: 0;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #1C92FF;
+    border-left-color: #1C92FF;
+  }
+  100%{
+    width: 100%;
+    height: 100%;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #1C92FF;
+    border-left-color: #1C92FF;
+  }
+}
+
 h2{
     font-size: 1.5rem;
     margin-bottom: 20px;
