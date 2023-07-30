@@ -706,11 +706,11 @@ section::before{
   position: absolute;
   width: 0;
   height: 0;
-  background-color: transparent;
   top: -2px;
   left: -2px;
   border: 2px solid transparent;
   box-sizing: content-box;
+  z-index: -1;
 }
 
 section::before{
@@ -750,11 +750,11 @@ section::after{
   position: absolute;
   width: 0;
   height: 0;
-  background-color: transparent;
   top: -2px;
   left: -2px;
   border: 2px solid transparent;
   box-sizing: content-box;
+  z-index: -1;
 
 }
 section::after{
@@ -810,6 +810,13 @@ h4{
 
 .cargo{
   margin: 20px 0;
+}
+.ver-projeto{
+  margin-top: 10px;
+  display: inline-block;
+  color: #0a66c2;
+  font-weight: bold;
+  font-size: 0.95rem;
 }
 
 .colunas li{
