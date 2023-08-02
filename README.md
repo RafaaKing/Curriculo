@@ -15,3 +15,5 @@ Fique à vontade para explorar o código-fonte e utilizar como referência para 
 Contribuições e sugestões são sempre bem-vindas. Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 Acesse o currículo online em: https://curriculo.rafaelssouza.com/
+
+![ScreenShot_20230730003213](https://github.com/RafaaKing/Curriculo/assets/138323110/7cd1e6a5-4f6e-4665-99b8-a336ed69ca81)
