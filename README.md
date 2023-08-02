@@ -2,6 +2,7 @@ Meu Currículo
 
 Uma maneira diferente de fazer um curriculo formal sem o formato .docx ou pdf, criado utilizando HTML, CSS e JavaScript. O currículo apresenta informações sobre minha educação, experiência profissional e dados pessoais.
 
+
 ![ScreenShot_20230730003213](https://github.com/RafaaKing/Curriculo/assets/138323110/7cd1e6a5-4f6e-4665-99b8-a336ed69ca81)
 
 Recursos Implementados:
