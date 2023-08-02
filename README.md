@@ -14,4 +14,4 @@ Fique à vontade para explorar o código-fonte e utilizar como referência para 
 
 Contribuições e sugestões são sempre bem-vindas. Sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-Acesse o currículo online em: https://rafakingcurriculo.netlify.app/
+Acesse o currículo online em: https://curriculo.rafaelssouza.com/
