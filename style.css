@@ -655,7 +655,46 @@ label{
 .contato p{
   margin-bottom: 25px;
 }
+label{
+  position: relative;
+  margin-bottom: 50px;
+}
+label::after{
+  content: 'Clique Aqui ☝';
+  position: absolute;
+  bottom: -30px;
+  right: 35px;
+  color:#2a76bc;
+  
+  animation: girar 2.5s infinite;
+}
 
+@keyframes girar{
+  0% {
+      transform: rotate(0deg);
+  }
+  10% {
+      transform: rotate(2deg);
+  }
+  20% {
+      transform: rotate(-2deg);
+  }
+  30% {
+      transform: rotate(2deg);
+  }
+  40% {
+      transform: rotate(-2deg);
+  }
+  50% {
+      transform: rotate(2deg);
+  }
+  60% {
+      transform: rotate(0deg);
+  }
+  100% {
+      transform: rotate(0deg);
+  }
+}
 .contato ul{
   margin-left: 0;
 }
@@ -663,6 +702,14 @@ label{
 .contato li{
   margin-bottom: 15px;
   list-style: none;
+}
+.contato a:last-child{
+  color:#286fb1;
+  font-size: 0.97em;
+  font-style: italic;
+}
+.contato a:last-child:hover{
+  color: #1b5b9bde;
 }
 
 .contato h1{
