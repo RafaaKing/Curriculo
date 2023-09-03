@@ -744,7 +744,7 @@ p{
   display: flex;
 }
 
-section{
+.colunas section{
   border: 2px solid transparent;
   padding: 20px;
   margin: 20px 10px;
@@ -752,7 +752,7 @@ section{
   box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 7px;
 }
 
-section::before{
+.colunas section::before{
   content: '';
   position: absolute;
   width: 0;
@@ -764,7 +764,7 @@ section::before{
   z-index: -1;
 }
 
-section::before{
+.colunas section::before{
   animation: animacao 2.7s linear forwards;
   animation-delay: 3s;
 }
@@ -796,7 +796,7 @@ section::before{
   }
 }
 
-section::after{
+.colunas section::after{
   content: '';
   position: absolute;
   width: 0;
@@ -808,7 +808,7 @@ section::after{
   z-index: -1;
 
 }
-section::after{
+.colunas section::after{
   animation: animacao2 2.7s linear forwards;
   animation-delay: 3s;
   
