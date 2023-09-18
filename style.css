@@ -1163,12 +1163,15 @@ body.active .contato p{
 }
 
 @media print{
+  body.active{
+    color: black;
+  }
   /*Botão StarWars*/
   label{
     display: none;
   }   
     
-    /*cabeçalho*/
+  /*cabeçalho*/
   .cabecalho-bg{
     padding: 15px 15px 0;
   }
