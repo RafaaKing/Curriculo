@@ -860,7 +860,7 @@ h4{
 }
 
 .cargo{
-  margin: 20px 0;
+  margin: 30px 0;
 }
 .ver-projeto{
   margin-top: 10px;
@@ -876,6 +876,10 @@ h4{
 
 .cursos i{
   font-size: 0.9em;
+}
+
+.coluna-direita p{
+  margin-top: 8px;
 }
 
 .coluna-direita section{
